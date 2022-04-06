@@ -122,7 +122,7 @@ public class Group {
       return kj.tb() + (kj.panjang()*d1/(d1+d2));
     }
     
-    public double kModus(){
+    public int[] kModus(){
       double f=kelas2[0].frek;
       
       int l = kelas2.length;

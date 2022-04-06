@@ -81,7 +81,7 @@ public class Single {
       int n = data.length;
       double sum = 0;
       for(int i = 0; i < n; ++i){
-        sum+= sqDeltaXMean(i, mean)
+        sum+= sqDeltaXMean(i, mean);
       }
       return sum/n;
     }
